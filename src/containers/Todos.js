@@ -23,7 +23,6 @@ export class Todos extends Component {
   static gsBeforeRoute ({dispatch}, renderProps, query, serverProps) {}
 
   render () {
-    console.log(this.props.todos)
     return (
       <TodoList todos={this.props.todos} />
     );
